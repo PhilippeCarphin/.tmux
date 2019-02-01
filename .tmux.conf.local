@@ -291,7 +291,7 @@ set -g mode-keys vi
  bind C-a send-prefix
 
 # move status line to top
-set -g status-position top
+set -g status-position bottom
 
 bind / split-window -h
 bind - split-window -v
